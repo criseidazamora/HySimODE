@@ -22,8 +22,8 @@ It integrates a **Random Forest Classifier (RFC)** that automatically determines
 Clone this repository and install required dependencies:
 
 ```bash
-git clone https://github.com/criseidazamora/HySimODE-public.git
-cd HySimODE-public
+git clone https://github.com/criseidazamora/HySimODE.git
+cd HySimODE
 pip install -r requirements.txt
 ```
 
@@ -187,4 +187,4 @@ Please follow standard GitHub contribution practices or open an issue for discus
 
 ## 🧩 Contact
 
-For questions or collaborations, please open an issue on [GitHub Issues](https://github.com/cg-zamora/HySimODE-public/issues).
+For questions or collaborations, please open an issue on [GitHub Issues](https://github.com/criseidazamora/HySimODE-public/issues).
