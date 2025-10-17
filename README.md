@@ -55,6 +55,10 @@ To analyze ensemble variability and generate mean ± SD plots:
 python src/analyze_runs.py
 ```
 
+> **Note:**  
+> The file `my_ode_model.py` must be located in the same folder as `hysimode.py`.  
+> For Windows users, please refer to the [User Guide](docs/user_guide.md) for OS-specific instructions.
+
 ---
 
 ## 📂 Repository Structure
