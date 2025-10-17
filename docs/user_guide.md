@@ -87,6 +87,25 @@ BASE_MODEL=smolen_odes python hysimode.py     --model models/concentration_adapt
 Here, `BASE_MODEL` refers to the source model defined in concentrations  
 (e.g., `smolen_odes.py`), and the adapter handles the µM ↔ molecules conversion.
 
+# Windows Usage Note for HySimODE
+
+### 🪟 Note for Windows users
+
+When running models through the concentration adapter  
+(e.g., `concentration_adapter_hybrid.py`),  
+the environment variable `BASE_MODEL` must be set using the Windows syntax:
+
+```bash
+set BASE_MODEL=smolen_odes
+python hysimode.py --model concentration_adapter_hybrid.py --tfinal 500 --dt 0.5 --runs 3
+```
+
+On Linux, macOS, or WSL, use the equivalent single-line command:
+
+```bash
+BASE_MODEL=smolen_odes python hysimode.py --model concentration_adapter_hybrid.py --tfinal 500 --dt 0.5 --runs 3
+```
+
 ---
 
 ## 5. Output Files
