@@ -148,7 +148,7 @@ Generates:
 This pipeline was developed as part of the **HySimODE** framework within the *Control and Biological Engineering Group, University of Warwick*.
 
 **Author:** Criseida Zamora  
-**Contact:** [criseida.zamora@warwick.ac.uk]  
+**Contact:** For questions or comments, please open a new issue.  
 (c) 2025 HySimODE Project. 
 
 If you use this machine learning pipeline or its results, please cite this repository.
