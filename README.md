@@ -187,4 +187,4 @@ Please follow standard GitHub contribution practices or open an issue for discus
 
 ## 🧩 Contact
 
-For questions or collaborations, please open an issue on [GitHub Issues](https://github.com/criseidazamora/HySimODE-public/issues).
+For questions or collaborations, please open an issue on [GitHub Issues](https://github.com/criseidazamora/HySimODE/issues).
