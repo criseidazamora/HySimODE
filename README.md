@@ -171,7 +171,7 @@ The template ODE model (models/my_ode_model.py) defines the minimal structure th
 
 HySimODE is a research project from the Control and Biological Engineering Group (University of Warwick).
 
-Lead developer: Criseida G. Zamora
+Developer: Criseida G. Zamora Chimal
 Contact: For comments or inquiries, please open a new issue.
 © 2025 HySimODE Project.
 
