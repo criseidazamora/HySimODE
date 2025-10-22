@@ -34,7 +34,7 @@ pip install -r requirements.txt
 Run a hybrid simulation directly from the command line (CLI):
 
 ```bash
-python src/hysimode.py --model models/my_ode_model.py --tmax 500 --runs 3
+python hysimode.py --model my_ode_model.py --tmax 500 --runs 3
 ```
 
 All outputs (CSV files, plots, and ensemble statistics) will be generated in:
