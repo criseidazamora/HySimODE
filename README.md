@@ -171,6 +171,7 @@ HySimODE is a research project from the Control and Engineering Biology Group (U
 
 Developer: Criseida G. Zamora Chimal
 Contact: For comments or inquiries, please open a new issue.
+Email: Criseida.Zamora@warwick.ac.uk
 © 2025 HySimODE Project.
 
 ---
