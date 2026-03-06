@@ -1,0 +1,199 @@
+{
+  "mode": "trained_after_lomo",
+  "csv": "features_rfc.csv",
+  "best_params_group_aware": {
+    "n_estimators": 600,
+    "min_samples_split": 4,
+    "min_samples_leaf": 3,
+    "max_features": "log2",
+    "max_depth": null,
+    "bootstrap": true
+  },
+  "features": [
+    "initial_q50",
+    "initial_cv",
+    "initial_minmax_ratio",
+    "initial_nmadydt",
+    "final_q50",
+    "final_cv",
+    "final_minmax_ratio",
+    "final_nmadydt",
+    "cv_total",
+    "minmax_ratio_total",
+    "nmadydt_total"
+  ],
+  "best_threshold_for_class1": 0.5,
+  "lomo_summary": {
+    "mode": "lomo",
+    "csv": "features_rfc.csv",
+    "n_models": 40,
+    "best_params_group_aware": {
+      "n_estimators": 600,
+      "min_samples_split": 4,
+      "min_samples_leaf": 3,
+      "max_features": "log2",
+      "max_depth": null,
+      "bootstrap": true
+    },
+    "metrics_mean": {
+      "accuracy": 0.9859217171717172,
+      "balanced_accuracy": 0.9889705882352942,
+      "f1_macro": 0.9766517857142858,
+      "roc_auc": 1.0,
+      "average_precision": 1.0,
+      "mcc": 0.9819836134261943,
+      "precision_1": 0.9135416666666666,
+      "recall_1": 0.925,
+      "f1_1": 0.9183333333333333
+    },
+    "metrics_std": {
+      "accuracy": 0.05364155893726314,
+      "balanced_accuracy": 0.04735071296005279,
+      "f1_macro": 0.09827836621728181,
+      "roc_auc": 0.0,
+      "average_precision": 3.865300434295845e-17,
+      "mcc": 0.0785592912654156,
+      "precision_1": 0.26926939970108865,
+      "recall_1": 0.2667467828369185,
+      "f1_1": 0.26687491868330787
+    },
+    "metric_coverage": {
+      "n_models_total": 40,
+      "n_models_binary": 34,
+      "n_models_monoclass": 6,
+      "n_defined_accuracy": 40,
+      "n_defined_balanced_accuracy": 34,
+      "n_defined_f1_macro": 40,
+      "n_defined_roc_auc": 34,
+      "n_defined_average_precision": 34,
+      "n_defined_mcc": 34,
+      "n_defined_precision_1": 40,
+      "n_defined_recall_1": 40,
+      "n_defined_f1_1": 40
+    },
+    "hardest_models_by_f1_1": [
+      {
+        "held_out_model": "metab06_glycolysis_pulsed_input",
+        "n_species": 9,
+        "f1_1": 0.0,
+        "mcc": NaN
+      },
+      {
+        "held_out_model": "osc03_goodwin_oscillator",
+        "n_species": 7,
+        "f1_1": 0.0,
+        "mcc": NaN
+      },
+      {
+        "held_out_model": "osc04_goodwin_delay_chain",
+        "n_species": 7,
+        "f1_1": 0.0,
+        "mcc": NaN
+      },
+      {
+        "held_out_model": "grn05_toggle_autoregulation_v2_balanced",
+        "n_species": 8,
+        "f1_1": 0.8,
+        "mcc": 0.5773502691896258
+      },
+      {
+        "held_out_model": "signal02_mapk_double_phosphorylation",
+        "n_species": 11,
+        "f1_1": 0.9333333333333333,
+        "mcc": 0.8100925873009825
+      },
+      {
+        "held_out_model": "grn04_toggle_switch",
+        "n_species": 6,
+        "f1_1": 1.0,
+        "mcc": 1.0
+      },
+      {
+        "held_out_model": "grn03_repressilator_dimerization",
+        "n_species": 9,
+        "f1_1": 1.0,
+        "mcc": 1.0
+      },
+      {
+        "held_out_model": "grn01_repressilator",
+        "n_species": 6,
+        "f1_1": 1.0,
+        "mcc": 1.0
+      },
+      {
+        "held_out_model": "grn08_lambda_switch_cooperative",
+        "n_species": 8,
+        "f1_1": 1.0,
+        "mcc": 1.0
+      },
+      {
+        "held_out_model": "metab01_linear_pathway",
+        "n_species": 8,
+        "f1_1": 1.0,
+        "mcc": 1.0
+      }
+    ],
+    "hardest_models_by_mcc": [
+      {
+        "held_out_model": "grn05_toggle_autoregulation_v2_balanced",
+        "n_species": 8,
+        "mcc": 0.5773502691896258,
+        "f1_1": 0.8
+      },
+      {
+        "held_out_model": "signal02_mapk_double_phosphorylation",
+        "n_species": 11,
+        "mcc": 0.8100925873009825,
+        "f1_1": 0.9333333333333333
+      },
+      {
+        "held_out_model": "grn03_repressilator_dimerization",
+        "n_species": 9,
+        "mcc": 1.0,
+        "f1_1": 1.0
+      },
+      {
+        "held_out_model": "grn01_repressilator",
+        "n_species": 6,
+        "mcc": 1.0,
+        "f1_1": 1.0
+      },
+      {
+        "held_out_model": "grn04_toggle_switch",
+        "n_species": 6,
+        "mcc": 1.0,
+        "f1_1": 1.0
+      },
+      {
+        "held_out_model": "grn06_toggle_asymmetric",
+        "n_species": 6,
+        "mcc": 1.0,
+        "f1_1": 1.0
+      },
+      {
+        "held_out_model": "grn07_lambda_switch",
+        "n_species": 8,
+        "mcc": 1.0,
+        "f1_1": 1.0
+      },
+      {
+        "held_out_model": "grn02_repressilator_saturable_deg",
+        "n_species": 6,
+        "mcc": 1.0,
+        "f1_1": 1.0
+      },
+      {
+        "held_out_model": "metab01_linear_pathway",
+        "n_species": 8,
+        "mcc": 1.0,
+        "f1_1": 1.0
+      },
+      {
+        "held_out_model": "metab02_linear_pathway_MM",
+        "n_species": 8,
+        "mcc": 1.0,
+        "f1_1": 1.0
+      }
+    ]
+  }
+}
