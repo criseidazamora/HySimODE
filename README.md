@@ -238,7 +238,7 @@ For platform-specific instructions (e.g., Windows), refer to the Supplementary I
 
 A permanent DOI for this software release is provided via Zenodo:
 
-**DOI: (to be added after release)**
+**DOI: https://doi.org/10.5281/zenodo.19503079.**
 
 ---
 
